@@ -738,3 +738,16 @@ a:hover img {
     overflow-y: auto;
     padding-right: 35%;
 }
+
+.dlk-radio input[type="radio"]
+{
+    margin-left:2px;
+    opacity:0;
+}
+.dlk-radio input[type="radio"] + .fa {
+    opacity:0.15
+}
+.dlk-radio input[type="radio"]:checked + .fa {
+    opacity:1;
+    color: #fff;
+}
